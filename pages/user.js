@@ -11,7 +11,7 @@ export async function getServerSideProps() {
   };
 }
 
-export default function Home(props) {
+export default function User(props) {
   return (
     <>
       <NavBar />
