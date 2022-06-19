@@ -17,7 +17,7 @@ export default function Home(props) {
       <NavBar />
       <h1>Home Page</h1>
       {props.characters.results.map((character) => {
-        return <p>{character.name}</p>
+        return <p key={character.id}>{character.name}</p>
       })}
     </>
   )
